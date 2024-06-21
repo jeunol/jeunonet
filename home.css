@@ -10,3 +10,8 @@ body {
     background-color: #87cefa;
     font-family: 'Montserrat';
 }
+
+footer {
+    text-align: center;
+    background-color: #27acff;
+}
