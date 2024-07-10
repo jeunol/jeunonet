@@ -1,5 +1,15 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
 h1 {
     color: #ffffff;
+    font-size: 2.5em;
 }
 
 .p1 {
@@ -7,11 +17,28 @@ h1 {
 }
 
 body {
+    height: 100%;
     background-color: #87cefa;
     font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
 }
 
-footer {
+section {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.page-body, .page-header, .page-footer {
+    padding: 20px;
+}
+
+.page-footer {
     text-align: center;
     background-color: #27acff;
 }
