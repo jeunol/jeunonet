@@ -19,7 +19,7 @@ h1 {
 body {
     height: 100%;
     background-color: #87cefa;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
 }
